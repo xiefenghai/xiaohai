@@ -2,7 +2,7 @@ package com.zhonghangxin.factory2;
 
 
 interface fruit{
-	public abstract eat();
+	public abstract void eat();
 }
  class hello {
 
