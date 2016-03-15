@@ -2,18 +2,19 @@ package com.zhonghangxin.test;
 
 public class PersistManager {
 	
-	 //模板方法（外派给接口实现）
+	 //模锟藉方锟斤拷锟斤拷锟斤拷锟缴革拷锟接匡拷实锟街ｏ拷
     public static void persist(PersistCallback persistCallback) {
 	  Session session = SessionFactory.openSession();
          try {
-            System.out.println("开启事务");     
+            System.out.println("锟斤拷锟斤拷锟斤拷锟斤拷");     
             persistCallback.doPersist(session);
-            System.out.println("提交事务");
+            System.out.println("锟结交锟斤拷锟斤拷");
          }catch(Exception e) {
             e.printStackTrace();
-            System.out.println("回滚事务");
+            System.out.println("锟截癸拷锟斤拷锟斤拷");
          }finally {
-        	 System.out.println("关闭事务");
+        	 System.out.println("锟截憋拷锟斤拷锟斤拷");
+             System.out.println("");
          }           
     }
 
