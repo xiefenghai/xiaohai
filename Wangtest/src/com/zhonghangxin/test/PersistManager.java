@@ -14,7 +14,7 @@ public class PersistManager {
             System.out.println("�ع�����");
          }finally {
         	 System.out.println("�ر�����");
-             System.out.println("");
+             System.out.println("1111");
          }           
     }
 
