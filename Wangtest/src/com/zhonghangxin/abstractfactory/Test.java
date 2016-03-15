@@ -6,6 +6,7 @@ public class Test {
          Provider provider = new SendMailFactory();
          
          Sender sender = provider.produce();
+         System.out.println("11");
          sender.send();
 	}
 
